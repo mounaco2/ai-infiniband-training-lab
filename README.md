@@ -19,3 +19,17 @@ CORRECTED — evidence-based, not assumed.
 ## Host
 
 PA-ALT-N11, working directory `~/ibsim-lab`
+
+## Push authentication
+
+Pushes from PA-ALT-N11 use a GitHub Personal Access Token (classic, `repo`
+scope), stored via `git config --global credential.helper store`.
+
+**Token expires ~30 days from 2026-09-03.** When pushes start failing with
+an auth error after that:
+
+1. GitHub.com -> avatar -> Settings -> Developer settings -> Personal
+   access tokens -> Tokens (classic) -> Generate new token (classic)
+2. Same settings as before: `repo` scope checked, ~30 day expiry
+3. Next `git push` will prompt for username/token again -> paste the new
+   token -> it's stored again automatically

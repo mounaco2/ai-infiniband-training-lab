@@ -47,3 +47,17 @@ an auth error after that:
 2. Same settings as before: `repo` scope checked, ~30 day expiry
 3. Next `git push` will prompt for username/token again -> paste the new
    token -> it's stored again automatically
+
+## Workbook AI — Appendices (reference, not sequential reading)
+
+A1–A7 are the actual curriculum, read straight through. Appendices A–E
+inside `Workbook_AI_RoCEv2_RDMA.docx` are reference material — pull each
+up *while doing* the module it supports, not after finishing A7:
+
+| Appendix | Consult it... |
+|---|---|
+| Appendix (unlabeled) — Soft-RoCE build procedure | Before attempting any A2/A3/A5 exercise tagged with the soft-RoCE icon — it's the actual setup steps those exercises assume |
+| Appendix B — Real ENOSPC case study | Alongside `RDMA_Verbs_Deep_Dive.docx` — same debugging session, read together (step 8 in the reading order) |
+| Appendix C — Consolidated command reference | Anytime, as a lookup — especially useful mid-Exercise 1–7 in the Fat-Tree Guide when you want to confirm a flag's real status |
+| Appendix D — Arista AI hardware line | After A2/A3, once you've seen ECN fail on cEOS — explains *why*, via real chipset mapping |
+| Appendix E — Untested exercise (hardware flow tracking) | Optional, after A7 — closes the one deliberately-open loop in the workbook with real evidence, if you choose to run it |

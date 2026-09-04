@@ -61,3 +61,12 @@ up *while doing* the module it supports, not after finishing A7:
 | Appendix C — Consolidated command reference | Anytime, as a lookup — especially useful mid-Exercise 1–7 in the Fat-Tree Guide when you want to confirm a flag's real status |
 | Appendix D — Arista AI hardware line | After A2/A3, once you've seen ECN fail on cEOS — explains *why*, via real chipset mapping |
 | Appendix E — Untested exercise (hardware flow tracking) | Optional, after A7 — closes the one deliberately-open loop in the workbook with real evidence, if you choose to run it |
+
+## Lecture Companion (reference, not sequential)
+
+`Lecture_Companion_RDMA_InfiniBand_Concepts.docx` — RDMA, Verbs/Queue
+Pairs, LID vs GID vs GUID, RXE, RoCEv2 packet anatomy, MAD, Work Request
+Flushed errors, and the diagnostic escalation method. Covers everything
+explained mid-conversation that never made it into a formal module. Read
+alongside Workbook AI, or as a standalone glossary when a term comes up
+mid-lab.
